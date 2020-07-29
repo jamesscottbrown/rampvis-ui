@@ -1,0 +1,70 @@
+
+h2.visTitle{
+    font-size: 14pt;
+    font-weight: bold;
+}
+div#menu{
+    margin-bottom: 30px;
+}
+
+.barCulmulativeCases{
+    fill: #000;
+    stroke: none;
+}
+.barCulmulativeCases.tickmark{
+    fill: #888;
+}
+.mouseover-linked{
+    fill: #f00;
+}
+.chartBackground{
+    fill: #fff;
+}
+.chartBoxBackground{
+    opacity: 0;
+}
+.regionLabel{
+    font-size: 10pt;
+    fill: var(--chartlabel);
+    font-weight: bold;
+}
+.regionCurrentValue{
+    fill: #444;
+    font-size: 10pt;
+    font-weight: 100;
+}
+.valueLabel{
+    font-size: 10pt;
+    text-anchor: end;
+}
+.valueLabelBackground{
+    fill: #fff;
+    opacity: 1;
+}
+line.tickmark{
+    stroke: var(--gray1);
+}
+text.axisLabel{
+    font-size: 8pt;
+    font-weight: 100;
+    fill: var(--gray1);
+}
+text.timeTickmarkLabel{
+    font-size: 8pt;
+    fill: var(--gray1);
+}
+.valueline{
+    stroke: #888;
+    stroke-width: .5px;
+    fill: none;
+}
+.valuePoint{
+    fill: #888;
+    stroke: none;
+}
+.mouseover{
+    fill: #f00;
+}
+.zerovalue{
+    fill: #0b0;
+}

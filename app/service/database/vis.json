@@ -76,5 +76,17 @@
     "function": "DefaultDashboard",
     "type": "default_dashboard",
     "description": ""
+  },
+  {
+    "id": 14,
+    "function": "ScotmapA",
+    "type": "plot",
+    "description": ""
+  },
+  {
+    "id": 15,
+    "function": "ScotmapB",
+    "type": "plot",
+    "description": ""
   }
 ]

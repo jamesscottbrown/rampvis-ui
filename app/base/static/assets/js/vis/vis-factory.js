@@ -28,5 +28,9 @@ class VisFunctionFactory {
             return new EnhancedMatrix(args);
         if (type === "DefaultDashboard") 
             return new DefaultDashboard(args);
+        if (type === "ScotmapA")
+            return ScotmapA(args);
+        if (type === "ScotmapB")
+            return ScotmapA(args);
     }
 }

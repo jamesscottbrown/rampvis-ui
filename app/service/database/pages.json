@@ -1218,5 +1218,54 @@
                 "regional": [3, 7, 11, 15, 19, 23, 34, 27, 38, 42, 46, 50, 54, 58, 62],
                 "board": [2, 66, 67, 68, 69, 70, 73, 71, 74, 75, 76, 77, 78, 79, 80]
     }
+  },
+  {
+    "id": 101,
+    "name": "scotmap-cumulativecases",
+    "type": "plot",
+    "bind": [
+      { "vis_id": 14, "data_id": 1, "query_params": { "table": "cumulative_cases" }, "title": "" }
+    ],
+    "nrows": 1,
+    "title": "XX",
+    "description": "XX",
+    "links": {}
+  },
+  {
+    "id": 101,
+    "name": "scotmap-hospconfirmed",
+    "type": "plot",
+    "bind": [
+      { "vis_id": 15, "data_id": 2, "query_params": { "table": "hospital_confirmed", "region": "scotland" }, "title": "" }
+    ],
+    "nrows": 1,
+    "title": "XX",
+    "description": "XX",
+    "links": {}
+  },
+  {
+    "id": 101,
+    "name": "scotmap-hospsuspected",
+    "type": "plot",
+    "bind": [
+      { "vis_id": 15, "data_id": 2, "query_params": { "table": "hospital_suspected", "region": "scotland" }, "title": "" }
+    ],
+    "nrows": 1,
+    "title": "XX",
+    "description": "XX",
+    "links": {}
+  },
+  {
+    "id": 101,
+    "name": "scotmap-icupatients",
+    "type": "plot",
+    "bind": [
+      { "vis_id": 15, "data_id": 2, "query_params": { "table": "icu_patients", "region": "scotland" }, "title": "" }
+    ],
+    "nrows": 1,
+    "title": "XX",
+    "description": "XX",
+    "links": {}
   }
-]
+
+  ]
